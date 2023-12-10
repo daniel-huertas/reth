@@ -332,6 +332,8 @@ struct NetworkInner {
     local_peer_id: PeerId,
     /// Access to the all the nodes.
     peers: PeersHandle,
+    /// I'm obviously doing shit 
+    EthNetwork: Added
     /// The mode of the network
     network_mode: NetworkMode,
     /// Used to measure inbound & outbound bandwidth across network streams (currently unused)
