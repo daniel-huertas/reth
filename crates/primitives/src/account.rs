@@ -19,6 +19,7 @@ pub struct Account {
     /// Hash of the account's bytecode.
     pub bytecode_hash: Option<B256>,
 }
+##Pretty sure this is a very good code anyways, I'm not an expert yet so just trying to write in English for now. 
 
 impl Account {
     /// Whether the account has bytecode.
